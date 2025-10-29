@@ -1,4 +1,6 @@
-    const modelSlugs = {
+document.addEventListener("DOMContentLoaded", () => {
+
+const modelSlugs = {
         "BMW 3 Series": "/searchnew.aspx?ModelAndTrim=330i!340i",
         "BMW 5 Series": "/searchnew.aspx?ModelAndTrim=530i!540i",
         "BMW X1": "/searchnew.aspx?ModelAndTrim=X1",
@@ -142,3 +144,4 @@
 
       return Object.entries(s).reduce((a, b) => (a[1] > b[1] ? a : b))[0];
     }
+});
